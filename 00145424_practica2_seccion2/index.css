@@ -44,6 +44,13 @@ h1 + p {
 }
 
 /* Chained */
-h1, p {
+h1,
+p {
   /* Selects both h1 and p elements */
+}
+
+@media (max-width: 768px) {
+  .page {
+    padding: 10px;
+  }
 }
